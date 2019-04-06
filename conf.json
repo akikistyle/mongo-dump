@@ -1,0 +1,13 @@
+{
+  "isCron": false,
+  "cronSpec": "",
+  "configs": [
+    {
+      "host": "",
+      "user": "",
+      "pwd": "",
+      "db": "",
+      "out": ""
+    }
+  ]
+}
