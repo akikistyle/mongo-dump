@@ -65,9 +65,9 @@ func (c *Config) Dump() error {
 	goos := runtime.GOOS
 	switch goos {
 	case "windows":
-		cmdStr = ".\\bin\\mongo-dump"
+		cmdStr = ".\\bin\\mongodump"
 	case "linux":
-		cmdStr = "./bin/mongo-dump"
+		cmdStr = "./bin/mongodump"
 	}
 	for _, v := range c.DBs {
 		od := v.Out
